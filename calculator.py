@@ -1,2 +1,17 @@
-print("name om college slc")
+
+
+
+
+
+
+
+
+message = "name om college slc"
+print(message)
+
+
+
+
+
+
 
