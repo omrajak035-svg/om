@@ -1,4 +1,2 @@
-print = "name om college slc"
-
-
+print("name om college slc")
 
