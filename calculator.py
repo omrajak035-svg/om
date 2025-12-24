@@ -1,4 +1,4 @@
-print = "name : om /n college slc"
+print = "name om college slc"
 
 
 
