@@ -27,5 +27,5 @@ def print_list(list,idx=0):
     print(list[idx])
     print_list(list , idx +1)
 
-    fruits = ["alu","mango","banana","apple","papaya"]
-    print_list(fruits)
+fruits = ["alu","mango","banana","apple","papaya"]
+print_list(fruits)

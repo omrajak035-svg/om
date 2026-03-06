@@ -1,0 +1,1 @@
+my_script = """welcome back to my channel,today we are diving into some massive new map leaks.make sure to suscribe for more daily updates. """
