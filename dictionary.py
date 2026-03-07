@@ -12,11 +12,11 @@ print(info)
 student = {
 "name" : "abhyam",
 "subject" : {
-    "business communication" : 23 ,
-    "BE" : 26 , 
-    "FOM" : 14 ,
-    "EVS" : 12,
-    "MOM" : 24
+    "business communication" : 40 ,
+    "BE" : 40 , 
+    "FOM" : 40,
+    "EVS" : 40,
+    "MOM" : 40
     
     }
 }
