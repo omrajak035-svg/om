@@ -16,10 +16,11 @@ print("Times the word'map'appears in the script: ", keyword_count)
 
 #lower 
 my_script2 = "Welcome back! Today we are looking at the newest GTA 6 map leaks."
-clean_script = my_script2.lower()
+clean_script = my_script2.split()
 total_word = len(clean_script)
 print ("total word in the script :",total_word)
 user_input = input("what word do ypu want to  search for ?")
-clear_word =  user_input.lower()
-keyword_count2 = clean_script.count(clear_word)
+new_count=user_input.lower()
+
+keyword_count2 = clean_script.count(new_count)
 print("times the word used :",keyword_count2)
