@@ -38,14 +38,21 @@
 # else:
 #     print("script is okay")
 
-user_input = input ("enter the length at which you want to make video in minutes if you want to make a short reel enter 1 or less less then 1 min")
-video_length = int(user_input)
-if  video_length<=1:
-    print("short reels charge 200rs")
-elif video_length <= 5:
-    print("middium videos rate is 500rs")
-elif video_length <=10 :
-    print ("mid long video rate is 1000rs")
-else:
-    print("long video rate is 2000rs or more depends on the lengthof video ")
+# user_input = input ("enter the length at which you want to make video in minutes if you want to make a short reel enter 1 or less less then 1 min")
+# video_length = int(user_input)
+# if  video_length<=1:
+#     print("short reels charge 200rs")
+# elif video_length <= 5:
+#     print("middium videos rate is around 500rs")
+# elif video_length <=10 :
+#     print ("mid long video rate is around 1000rs")
+# else:
+#     print("long video rate is 2000rs or more depends on the lengthof video ")
+
+client_list = ["rahul" , "priya", "amit"]
+client_list.append("bheem")
+print(client_list)
+for person in client_list:
+    print("sender final video to :"+person)
+    print("all videos sent")
 
