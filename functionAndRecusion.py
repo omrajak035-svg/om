@@ -49,10 +49,13 @@
 # else:
 #     print("long video rate is 2000rs or more depends on the lengthof video ")
 
-client_list = ["rahul" , "priya", "amit"]
-client_list.append("bheem")
-print(client_list)
-for person in client_list:
-    print("sender final video to :"+person)
-    print("all videos sent")
-
+# client_list = ["rahul" , "priya", "amit"]
+# client_list.append("bheem")
+# print(client_list)
+# for person in client_list:
+#     print("sender final video to :"+person)
+#     print("all videos sent")
+account_balance = 1000
+for balance in account_balance:
+    if balance <0:
+        print("your account is in negative balance")
