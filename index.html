@@ -1,2 +1,67 @@
-<p>hello world</p>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Basic HTML template" />
+    <title>New Page</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+      }
+      body {
+        font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+        line-height: 1.5;
+        margin: 0;
+        padding: 0;
+      }
+      header,
+      main,
+      footer {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 16px;
+      }
+      header {
+        border-bottom: 1px solid rgba(127, 127, 127, 0.35);
+      }
+      footer {
+        border-top: 1px solid rgba(127, 127, 127, 0.35);
+        font-size: 0.9rem;
+        opacity: 0.9;
+      }
+      a {
+        color: inherit;
+      }
+      .card {
+        border: 1px solid rgba(127, 127, 127, 0.35);
+        border-radius: 12px;
+        padding: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>New Page</h1>
+      <p>A basic HTML5 template.</p>
+    </header>
+
+    <main>
+      <section class="card">
+        <h2>Hello</h2>
+        <p>Edit <code>new.html</code> to get started.</p>
+        <p><a href="https://developer.mozilla.org/">MDN Web Docs</a></p>
+      </section>
+    </main>
+
+    <footer>
+      <small>&copy; <span id="year"></span></small>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
+
 

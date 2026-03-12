@@ -1,3 +1,2 @@
 # om
-alu bhalu (chalu!)
-first and final step  (alu) 
+learning basic python and putting it in git hub what i learned
