@@ -120,11 +120,13 @@
 #     idx+=1
 
 i = (1,4,9,16,25,36,49,64,81,100)
+
+x = 36 
 idx = 0 
-for x in i :
-    if x == 16 :
-        print("found no : ",idx)
+for y in i :
+    if y ==x :
+        print("found at ind:", idx)
         break
-    else :
-        print ("finding")
+    else:
+        print("finding...")
         idx += 1 
