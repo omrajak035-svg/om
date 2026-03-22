@@ -108,13 +108,23 @@
 #         sum *= i 
 #         print ("total sum = " , sum)
     
-heros = (1 , 3 ,4 ,6,53, 36 ,56,64,25,25,36,98,67,46,75)
+# heros = (1 , 3 ,4 ,6,53, 36 ,56,64,25,25,36,98,67,46,75)
 
 
-x = 67
-idx = 0 
-while idx < len(heros):
-    if( heros[idx]==x):
-        print("found",idx)
+# x = 67
+# idx = 0 
+# while idx < len(heros):
+#     if( heros[idx]==x):
+#         print("found",idx)
    
-    idx+=1
+#     idx+=1
+
+i = (1,4,9,16,25,36,49,64,81,100)
+idx = 0 
+for x in i :
+    if x == 16 :
+        print("found no : ",idx)
+        break
+    else :
+        print ("finding")
+        idx += 1 
