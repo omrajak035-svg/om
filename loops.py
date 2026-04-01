@@ -119,14 +119,33 @@
    
 #     idx+=1
 
-i = (1,4,9,16,25,36,49,64,81,100)
+# i = (1,4,9,16,25,36,49,64,81,100)
 
-x = 36 
-idx = 0 
-for y in i :
-    if y ==x :
-        print("found at ind:", idx)
-        break
-    else:
-        print("finding...")
-        idx += 1 
+# x = 36 
+# idx = 0 
+# for y in i :
+#     if y ==x :
+#         print("found at ind:", idx)
+#         break
+#     else:
+#         print("finding...")
+#         idx += 1 
+
+# for i in range (20 , 30 , 2):
+#     print(i)
+# for i in range (10 , 30 ):
+#     print(i)
+# for i in range (30):
+#     print(i)
+# int_val = int(input("enter which number table you want :"))
+# for i in range (1 ,11 ):
+    
+#      print (i*int_val)
+
+x = range (1,11,)
+y = 0
+
+for i in x:
+   y += i  
+    
+print( y ) 
